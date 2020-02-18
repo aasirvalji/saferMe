@@ -1,0 +1,28 @@
+{"type":"FeatureCollection",
+    
+    "features":[{"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Port Union", "Label_e":"Port Union",
+        "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "9.7"},
+        "geometry":{"coordinates":[-79.192640, 43.788700]}}, 
+    
+        {"type":"Feature","properties":
+            {"OBJECTID":162696,"name_e":"Grange Park", "Label_e":"Grange Park",
+                "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "6.9"},
+                "geometry":{"coordinates":[-79.192640, 43.788700]}},
+        
+                {"type":"Feature","properties":
+                    {"OBJECTID":162696,"name_e":"Port Union", "Label_e":"Port Union",
+                        "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "0.97"},
+                        "geometry":{"coordinates":[-79.432020, 43.649670]}}
+                    
+                    
+                    
+                    ]
+
+  
+    }
+
+        
+
+
+

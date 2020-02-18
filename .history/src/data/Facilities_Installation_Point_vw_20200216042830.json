@@ -1,0 +1,39 @@
+{"type":"FeatureCollection",
+
+    "features":[{"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Port Union", "Label_e":"Port Union",
+    "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "9.7"},
+    "geometry":{"coordinates":[-79.192640, 43.788700]}}, 
+    
+    {"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Forest Hill North", "Label_e":"Forest Hill North",
+    "Facility_Type_Installation":"Village", "Safety_rating": "97.9"},
+    "geometry":{"coordinates":[-79.412371, 43.688400]}},
+
+
+    {"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e": "Mount Pleasant", "Label_e": "Mount Pleasant",
+    "Facility_Type_Installation":"Specialty stores", "Safety_rating": "98.6"},
+    "geometry":{"coordinates":[-79.540925, 43.710364]}},
+
+    {"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e": "Woodbine-Lumsden", "Label_e": "Woodbine-Lumsden",
+    "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "95.8"},
+    "geometry":{"coordinates":[-79.329106, 43.696761]}},
+        
+    {"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e": "Guildwood", "Label_e": "Guildwood",
+    "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "94.4"},
+    "geometry":{"coordinates":[-79.329106, 43.696761]}}
+                    
+                    
+                    
+                    ]
+
+  
+    }
+
+        
+
+
+

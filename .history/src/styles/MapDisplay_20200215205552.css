@@ -1,0 +1,83 @@
+/* Try adding wave to Navbar */
+
+.map-con{
+    transform: translateY(1vh);
+    color: black;
+    width: 90%;
+    height: 76vh;
+    margin: 15px auto;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0 38px 76px rgba(0, 0, 0, 0.3), 0 30px 24px rgba(0, 0, 0, 0.22);
+            box-shadow: 0 38px 76px rgba(0, 0, 0, 0.3), 0 30px 24px rgba(0, 0, 0, 0.22);
+            overflow-y: auto;
+}
+
+.map-con p{
+    color: white;
+}
+
+.map-header h1{
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.map-header h1:after {
+    
+    content: '';
+    transform: translateY(1vh);
+    margin: auto;
+    border-bottom: .1vh solid black;
+    width: 11vh;
+    display: block;
+  
+}
+
+.map-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-details p{
+    font-weight: 300;
+    margin: auto;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 3vh;
+}
+
+.marker-div h2{
+font-size: 1rem;
+text-align: center;
+}
+
+button{
+background: none;
+color: #fc0000;
+border: 1px solid #fc0000;
+padding: 20px 50px;
+border-radius: 8px;
+text-transform: uppercase;
+font-size: 14px;
+transition: 0.4s linear;
+cursor: pointer;
+}
+
+button:hover{
+    background: #fc0000;
+    color: #fff;
+  }
+
+.emergencyButton{
+    transform: translateY(-2.5rem);
+}
+
+/*end button*/

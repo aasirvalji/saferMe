@@ -1,0 +1,195 @@
+/* Try adding wave to Navbar */
+
+.alt-con{
+    transform: translateY(1vh);
+    color: black;
+    width: 90%;
+    height: 76vh;
+    margin: 15px auto;
+    background: white;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    -webkit-box-shadow: 0 38px 76px rgba(0, 0, 0, 0.3), 0 30px 24px rgba(0, 0, 0, 0.22);
+            box-shadow: 0 38px 76px rgba(0, 0, 0, 0.3), 0 30px 24px rgba(0, 0, 0, 0.22);
+            overflow-y: auto;
+}
+
+.alt-con p{
+    color: white;
+}
+
+.alt-header h1{
+    color: black;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.alt-header h1:after {
+    
+    content: '';
+    transform: translateY(1vh);
+    margin: auto;
+    border-bottom: .1vh solid black;
+    width: 11vh;
+    display: block;
+  
+}
+
+.alt-details p{
+    font-weight: 300;
+    margin: auto;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 3vh;
+}
+
+.alt-details img{
+    display: block;
+    margin: 0 auto;
+    height: 40vh;
+    width: 50vh;
+}
+
+/* sample */
+
+.middle{
+    position: relative;
+    margin: auto;
+  }
+  
+  .task-list{
+    width: 400px;
+    padding: 40px;
+    background: linear-gradient(-45deg, #ee7752, #ee7752,#ee7752, #e7ab98);
+    background-size: cover;
+  }
+  .task-list h2{
+    color: #fff;
+    font-weight: 220;
+  }
+  .task{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 220;
+  }
+  
+  .task input{
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .task i{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 48px;
+    font-size: 20px;
+    margin-right: 14px;
+    color: transparent;
+  }
+  
+  .text{
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .task input:checked ~ i{
+    color: white;
+  }
+  
+  .task input:checked ~ .text{
+    text-decoration: line-through;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .contact-section{
+    background: transparent;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .inner-width{
+    max-width: 600px;
+    margin: auto;
+
+  }
+  
+  .contact-section h1{
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+  }
+  
+  .name,.email{
+    background: none;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid;
+    color: #000000;
+    padding: 20px 6px;
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+  
+  .name{
+    float: left;
+    width: 270px;
+  }
+  
+  .email{
+    float: right;
+    width: 270px;
+  }
+  
+  .message{
+    min-width: 100%;
+    max-width: 100%;
+  }
+  
+  
+  .contact-section button{
+    margin-top: 4rem;
+    background: none;
+    color: #70a1ff;
+    border: 1px solid #70a1ff;
+    padding: 20px 50px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.4s linear;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover{
+    background: #70a1ff;
+    color: #fff;
+  }
+  
+  
+  @media screen and (max-width:600px){
+    .name,.email{
+      width: 100%;
+    }
+  }

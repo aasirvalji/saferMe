@@ -1,0 +1,29 @@
+{"type":"FeatureCollection",
+
+    "features":[{"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Port Union", "Label_e":"Port Union",
+    "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "9.7"},
+    "geometry":{"coordinates":[-79.192640, 43.788700]}}, 
+    
+    {"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Forest Hill North", "Label_e":"Forest Hill North",
+    "Facility_Type_Installation":"Neighbourhood", "Safety_rating": "97.9"},
+    "geometry":{"coordinates":[-79.412371, 43.688400]}},
+
+
+                {"type":"Feature","properties":
+                    {"OBJECTID":162696,"name_e": "M6H", "Label_e": "M6H",
+                        "Facility_Type_Installation":"", "Safety_rating": "13.9"},
+                        "geometry":{"coordinates":[-79.432020, 43.649670]}}
+                    
+                    
+                    
+                    ]
+
+  
+    }
+
+        
+
+
+

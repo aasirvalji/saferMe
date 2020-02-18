@@ -1,0 +1,20 @@
+{"type":"FeatureCollection",
+    
+    "features":[{"type":"Feature","properties":
+    {"OBJECTID":162696,"name_e":"Port Union","nom_f":"","Label_e":"Port Union",
+        "Etiquette_f":null,"min_scale_echelle":null,"max_scale_echelle":null,"url_e":null,"url_f":null,
+        "Facility_Type_Installation":"Neighbourhood","Public_Access":"Yes//Oui","Accessible":null},
+        "geometry":{"type":"Point","coordinates":[-79.192640, 43.788700]}}],
+    
+        "features":[{"type":"Feature","properties":
+            {"OBJECTID":162696,"name_e":"Lambton Baby Point","nom_f":"","Label_e":"Lambton Baby Point",
+                "Etiquette_f":null,"min_scale_echelle":null,"max_scale_echelle":null,"url_e":null,"url_f":null,
+                "Facility_Type_Installation":"Neighbourhood","Public_Access":"Yes//Oui","Accessible":null},
+                "geometry":{"type":"Point","coordinates":[-79.350189,43.658127]}}]
+    
+    }
+
+        
+
+
+

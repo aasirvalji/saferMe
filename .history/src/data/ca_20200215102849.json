@@ -1,0 +1,35 @@
+[
+    {
+        "city": "Toronto", 
+        "admin": "Ontario", 
+        "country": "Canada", 
+        "population_proper": "3934421", 
+        "iso2": "CA", 
+        "capital": "admin", 
+        "lat": "43.666667", 
+        "lng": "-79.416667", 
+        "population": "5213000"
+    }, 
+    {
+        "city": "Montr\u00e9al", 
+        "admin": "Qu\u00e9bec", 
+        "country": "Canada", 
+        "population_proper": "2356556", 
+        "iso2": "CA", 
+        "capital": "", 
+        "lat": "45.5", 
+        "lng": "-73.583333", 
+        "population": "3678000"
+    }, 
+    {
+        "city": "Vancouver", 
+        "admin": "British Columbia", 
+        "country": "Canada", 
+        "population_proper": "603502", 
+        "iso2": "CA", 
+        "capital": "", 
+        "lat": "49.25", 
+        "lng": "-123.133333", 
+        "population": "2313328"
+    }
+]

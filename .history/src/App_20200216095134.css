@@ -1,0 +1,61 @@
+.landing-div {
+    height: 100vh;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e,#FF4136, #85144b);
+	background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.landing-div .wave{
+    margin-right: 20vh;
+    height: 15vh;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width:700px) {
+
+    .landing-div {
+        height: 110vh;
+    }
+
+    .landing-div .wave{
+    display: none;
+    }
+
+}
+
+.about-background{
+    background: linear-gradient(-45deg, #23a6d5, #23a6d5,#23a6d5, #acceda);
+    height: 100vh;
+}
+
+.map-background{
+    background: linear-gradient(-45deg, #ffffff, #ffffff,#ffffff, #ffffff);
+    height: 100vh;
+}
+
+.graph-background{
+    background: linear-gradient(-45deg, #e73c7e, #e73c7e,#e73c7e, #e0a0b9);
+    height: 100vh;
+}
+
+.alt-background{
+    background: linear-gradient(-45deg, #5444c4, #5444c4,#5444c4, #908ab9);
+    height: 100vh;
+}
+
