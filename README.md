@@ -1,3 +1,7 @@
+For a working demo, create a .env file in the root directory of the project and insert a google maps javascript api key. This should be in the form: REACT_APP_GOOGLE_KEY = "your google api key here" within the .env file.
+
+-------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
