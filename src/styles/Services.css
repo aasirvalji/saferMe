@@ -1,0 +1,131 @@
+.services-header h1{
+    text-align: center;
+    font-weight: 250;
+    margin-right: 1vh;
+    font-size: 4vh;
+    margin-bottom: 7vh;
+  }
+  
+  .services-header h1:after {
+    
+      content: '';
+      transform: translateY(1vh);
+      margin: auto;
+      border-bottom: .3vh solid #5444c4;
+      width: 11vh;
+      display: block;
+    
+  }
+  
+  .services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 11vh;
+  }
+  
+  .services::after{
+    content: '';
+    display: none;
+  }
+  
+  .services h1{
+    font-size: 3vh;
+    font-weight: 200;
+  }
+  
+  .services p{
+    font-size: 1.8vh;
+    color: black;
+  }
+
+  .one{
+      transition: 1s;
+  }
+
+  .one:hover{
+    /*
+      transition: 1s;
+     border-radius: 10px;
+     -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     padding: 2vh 0 0 0;
+     */
+  }
+  
+  .one img{
+    height: 30vh;
+    width: 32vh;
+  }
+
+  .two{
+    transition: 1s;
+}
+
+.two:hover{
+    /*
+      transition: 1s;
+     border-radius: 10px;
+     -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     padding: 2vh 0 0 0;
+     */
+}
+  
+  .two img{
+    margin: auto;
+    height: 30vh;
+    width: 40vh;
+  }
+
+.three{
+    transition: 1s;
+}
+
+.three:hover{
+    /*
+      transition: 1s;
+     border-radius: 10px;
+     -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+     padding: 2vh 0 0 0;
+     */
+}
+  
+  .three img{
+    height: 30vh;
+    width: 34vh;
+  }
+
+    /* responsive services */
+
+    @media only screen and (max-width: 900px){
+        .services{
+          flex-direction: column;
+        }
+
+        .services-header h1{
+            margin-top: 10vh;
+        }
+
+        .one, .two, .three{
+            margin-top: 10vh;
+        }
+    
+        .one:hover{
+            box-shadow: none;
+            padding: none;
+        }
+
+        .two:hover{
+            box-shadow: none;
+            padding: none;
+        }
+
+        .three:hover{
+            box-shadow: none;
+            padding: none;
+        }
+    }
